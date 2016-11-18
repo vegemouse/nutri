@@ -31,6 +31,10 @@ h1 {
   margin: 7px 0 5px 0;
 }
 
+tr {
+  transition: background-color 500ms;
+}
+
 tr:hover {
   background-color: antiquewhite;
 }
@@ -124,11 +128,158 @@ tbody tr:nth-of-type(18), tbody tr:nth-of-type(24) {
   top: 428px;
 }
 
-/*.bottom-border {
-  border-bottom: 15px solid black;
-  padding-bottom: 5px;
+#calories:hover, #totalfat:hover, #saturatedfat:hover, #transfat:hover, #cholesterol:hover, #sodium:hover, #totalcarbohydrate:hover, #dietaryfiber:hover, #sugar:hover, #protein:hover {
+  text-shadow: 2px 2px 5px #999;
+  position: relative;
 }
 
-.top-border {
-  border-top: 1px solid black;
+#calories:hover:after {
+  position: absolute;
+  content:"Calories are measured by the energy needed to raise the temperature of 1 gram of water through 1 °C (now usually defined as 4.1868 joules). Calories literally fuel your body!";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 425px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#totalfat:hover:after {
+  position: absolute;
+  content:"The foods we eat contain nutrients that provide energy and other substances the body needs. Most of the nutrients in food fall into three major groups: proteins, fats, and carbohydrates. The body uses fat as a fuel source, and fat is the major storage form of energy in the body.";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 425px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#saturatedfat:hover:after {
+  position: absolute;
+  content:"A saturated fat is a type of fat, in which the fatty acids all have single bonds. A fat is made of two kinds of smaller molecules: monoglyceride and fatty acids. Fats are made of long chains of carbon (C) atoms.";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 405px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#transfat:hover:after {
+  position: absolute;
+  content:"Artificial trans fats (or trans fatty acids) are created in an industrial process that adds hydrogen to liquid vegetable oils to make them more solid.";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 405px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#cholesterol:hover:after {
+  position: absolute;
+  content:"a compound of the sterol type found in most body tissues, including the blood and the nerves. Cholesterol and its derivatives are important constituents of cell membranes";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 425px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#sodium:hover:after {
+  position: absolute;
+  content:"It's salt";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 425px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#totalcarbohydrate:hover:after {
+  position: absolute;
+  content:"any of a large group of organic compounds occurring in foods and living tissues and including sugars, starch, and cellulose. They contain hydrogen and oxygen in the same ratio as water (2:1) and typically can be broken down to release energy in the animal body";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 425px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#dietaryfiber:hover:after {
+  position: absolute;
+  content:"Dietary fiber or roughage is the indigestible portion of food derived from plants. It has two main components";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 405px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#sugar:hover:after {
+  position: absolute;
+  content:"a sweet crystalline substance obtained from various plants, especially sugar cane and sugar beet, consisting essentially of sucrose, and used as a sweetener in food and drink.";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 405px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+#protein:hover:after {
+  position: absolute;
+  content:"any of a class of nitrogenous organic compounds that consist of large molecules composed of one or more long chains of amino acids and are an essential part of all living organisms.";
+  display: block;
+  font-size: 1.3em;
+  width: 300px;
+  left: 425px;
+  text-shadow: none;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+/*#content p {
+  margin: 15px;
+  display: none;
+}*/
+
+/*#content {
+  display:none;
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  background-color: antiquewhite;
+  width: 200px;
+  height: 260px;
+  text-align: center;
+  border-radius: 5px;
+}*/
+/*
+#caloriesp, #totalfatp, #saturatedfatp, #transfatp, #cholesterolp, #sodiump, #totalcarbohydratep, #dietaryfiberp, #sugarp, #proteinp {
+  display: none;
+  position: absolute;
+}*/
+
+
+
+/*button:hover ~ table {
+  display: none;
+  position: absolute;
+  left: -500;
+  top: -500;
 }*/
